@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.com {
+    border-radius: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 20px;
+    background-color: black;
+    display: inline-block;
+    transition: .5s;
+    overflow: hidden;
+    width: 224px;
+    margin: 30px;
+}
+
+.one {
+    box-shadow: -7px 7px 21px -7px red;
+}
+
+.two {
+    box-shadow: 0px 10px 21px -10px red;
+}
+
+.three {
+    box-shadow: 7px 7px 21px -7px red;
+}
+
+.com:hover {
+    background-color: red;
+}
+
+.main {
+    display: inline-block;
+}
+
+.cardHolder1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    color: blanchedalmond;
+}
+
+.circleImg {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 100%;
+    margin: auto;
+    position: relative;
+    top: -30px;
+}
+
+.com:hover {
+    background-color: #222222;
+    transform: scale(1.04);
+}
+
+.com:hover .cardP {
+    color: darkred
+}
+
+.cardBack {
+    width: 100%;
+    height: 68px;
+    background: #161616;
+}
+
+.cardH1 {
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.cardP {
+    width: 181px;
+    margin: auto;
+    text-align: justify;
+    color: #5f5f5f;
+    transition: .5s;
+}
+
+.cardBtn {
+    padding: 7px 19px;
+    border-radius: 19px;
+    background: transparent;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #ffa5a5;
+    margin: 13px 10px 27px 59px;
+    border: 2px solid #b90000;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.cardBtn:hover {
+    color: #fff;
+    background: #b90000;
+}
