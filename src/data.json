@@ -1,0 +1,19 @@
+[{
+        "desc": "Lorem ipsum dolor sit consectetur adipisicing elit. Deleniti eius rem in tempora accusamus dolorem sunt adipisci placeat quod cumque?",
+        "title": "Card 1",
+        "cName": "com one",
+        "btxt": "Read More"
+    },
+    {
+        "desc": "Lorem ipsum dolor sit consectetur adipisicing elit. Deleniti eius rem in tempora accusamus dolorem sunt adipisci placeat quod cumque?",
+        "title": "Card 2",
+        "cName": "com two",
+        "btxt": "Read More"
+    },
+    {
+        "desc": "Lorem ipsum dolor sit consectetur adipisicing elit. Deleniti eius rem in tempora accusamus dolorem sunt adipisci placeat quod cumque?",
+        "title": "Card 3",
+        "cName": "com three",
+        "btxt": "Read More"
+    }
+]

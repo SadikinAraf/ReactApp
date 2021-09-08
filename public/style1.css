@@ -11,29 +11,38 @@ body {
     border-radius: 13px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    margin: 20px;
     background-color: black;
     display: inline-block;
-    transition: .5s;
     overflow: hidden;
     width: 224px;
     margin: 30px;
+    position: relative;
+    transition: .3s;
+    top: 0px;
 }
 
 .one {
-    box-shadow: -7px 7px 21px -7px red;
+    box-shadow: -7px 7px 21px -7px rgb(190, 0, 0);
+}
+
+.one:hover {
+    box-shadow: -7px 12px 31px -7px red;
 }
 
 .two {
-    box-shadow: 0px 10px 21px -10px red;
+    box-shadow: 0px 10px 21px -10px rgb(190, 0, 0);
+}
+
+.two:hover {
+    box-shadow: 0px 12px 31px -8px red;
 }
 
 .three {
-    box-shadow: 7px 7px 21px -7px red;
+    box-shadow: 7px 7px 21px -7px rgb(190, 0, 0);
 }
 
-.com:hover {
-    background-color: red;
+.three:hover {
+    box-shadow: 7px 12px 31px -7px red;
 }
 
 .main {
@@ -46,21 +55,29 @@ body {
     flex-wrap: wrap;
     overflow: hidden;
     color: blanchedalmond;
+    min-width: 350px;
 }
 
 .circleImg {
     width: 80px;
     height: 80px;
-    background: white;
+    background: #393939;
     border-radius: 100%;
     margin: auto;
     position: relative;
     top: -30px;
+    color: #ec0707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 2px solid #b90000;
 }
 
 .com:hover {
     background-color: #222222;
-    transform: scale(1.04);
+    /*  transform: scale(1.04);*/
+    top: -12px;
 }
 
 .com:hover .cardP {

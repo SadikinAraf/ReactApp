@@ -1,13 +1,13 @@
 
+import React from 'react'
 
-
-function Card1(props) {
+export default function Card1(props) {
 return (
     <div className={props.classCss}>
 
        <div className="style2">
         <div className="cardBack"></div>
-           <div className="circleImg"></div>
+           <div className="circleImg">{props.name.charAt(0)}</div>
 
        <h1 className="cardH1">{props.name}</h1>
 
@@ -20,4 +20,3 @@ return (
     </div>
 )
 }
-export default Card1;
